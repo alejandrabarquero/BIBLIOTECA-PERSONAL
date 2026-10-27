@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" href="data:,">
+</head>
+
+<body>
+    <aside class="barra-lateral">
+        <div class="logo">
+            <span class="logo-icono">A</span>
+            <div class="logo-nombre">
+                <strong>Biblioteca</strong>
+                <span class="logo-subtitulo">Colección Personal</span>
+            </div>
+        </div>
+        <nav class="menu">
+            <p class="menu-titulo">Colección</p>
+            <ul>
+                <li class="activo"><a href="#" data-filtro="todos">Mi Biblioteca</a></li>
+                <li><a href="#" data-filtro="leyendo">Leyendo</a></li>
+                <li><a href="#" data-filtro="porleer">Por leer</a></li>
+                <li><a href="#" data-filtro="favoritos">Favoritos</a></li>
+            </ul>
+        </nav>
+        <div class="perfil">
+            <a href="#">Ajustes</a>
+            <div class="perfil-usuario">
+                <span class="perfil-avatar">AB</span>
+                <div class="perfil-datos">
+                    <span class="perfil-nombre">Alejandra Barquero</span>
+                    <span class="perfil-subtitulo">Librería Personal</span>
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <main class="contenido">
+        <header class="cabecera">
+            <input type="search" id="buscador" class="buscador" placeholder="Buscar por título o autor">
+            <button class="boton-anadir" id="btn-anadir">Añadir libro</button>
+        </header>
+
+        <section class="banner">
+            <div class="banner-texto">
+                <h1 class="banner-titulo">¡Bienvenida a tu biblioteca, Ale!</h1>
+                <p class="banner-descripcion">Aquí podés registrar todas tus lecturas y llevar el registro de los datos
+                    de cada una. </p>
+
+            </div>
+        </section>
+
+        <section class="estadisticas">
+            <div class="estadistica">
+                <span class="estadistica-numero" id="stat-total">0</span>
+                <div class="estadistica-datos">
+                    <span class="estadistica-titulo">Libros en tu colección</span>
+                    <span class="estadistica-detalle" id="stat-total-detalle">—</span>
+                </div>
+            </div>
+            <div class="estadistica">
+                <span class="estadistica-numero" id="stat-terminados">0</span>
+                <div class="estadistica-datos">
+                    <span class="estadistica-titulo">Historias completadas</span>
+                    <span class="estadistica-detalle" id="stat-terminados-detalle">—</span>
+                </div>
+            </div>
+            <div class="estadistica">
+                <span class="estadistica-numero" id="stat-espera">0</span>
+                <div class="estadistica-datos">
+                    <span class="estadistica-titulo">En lista de espera</span>
+                    <span class="estadistica-detalle">Aún sin empezar</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="libros-recientes">
+            <div class="seccion-cabecera">
+                <div>
+                    <h2 class="seccion-titulo" id="seccion-titulo">Añadidos recientemente</h2>
+                </div>
+                <div class="seccion-acciones">
+                    <select id="orden" class="orden">
+                        <option value="recientes">Más recientes</option>
+                        <option value="titulo">Título (A-Z)</option>
+                        <option value="autor">Autor (A-Z)</option>
+                        <option value="progreso">Mayor progreso</option>
+                    </select>
+                    <a href="#" class="seccion-enlace" id="ver-todos">Ver todos</a>
+                </div>
+            </div>
+
+            <!-- Las tarjetas las genera app.js -->
+            <div class="lista-libros" id="lista-libros"></div>
+        </section>
+    </main>
+
+    <dialog id="dialogo-libro" class="dialogo">
+        <form id="form-libro">
+            <h2 id="titulo-dialogo">Añadir libro</h2>
+            <label>Nombre <input name="nombre" required></label>
+            <label>Autor <input name="autor" required></label>
+            <label>Páginas <input name="paginas" type="number" min="1"></label>
+            <label>Páginas leídas <input name="leidas" type="number" min="0" value="0"></label>
+            <label>Estado
+                <select name="estado">
+                    <option>No empezado</option>
+                    <option>Empezado</option>
+                    <option>En proceso</option>
+                    <option>Terminado</option>
+                </select>
+            </label>
+            <p id="error-form" class="error-form"></p>
+            <div class="dialogo-botones">
+                <button type="button" id="btn-cancelar">Cancelar</button>
+                <button type="submit" class="boton-anadir">Guardar</button>
+            </div>
+        </form>
+    </dialog>
+
+    <script src="{{ url_for('static', filename='app.js') }}?v=2"></script>
+</body>
+
+</html>

@@ -1,0 +1,493 @@
+:root {
+    --blanco-florarl: #fffaf0;
+    --crema: #ffefd5;
+    --rosa-claro: #ffc0cb;
+    --ver-claro: #90ee90;
+    --dorado: #d4a853;
+    --texto: #2a2a2a;
+    --texto-suave: #7a7a70;
+    --rosado-mas-claro: #ffadbb;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: var(--blanco-florarl);
+    color: var(--texto);
+    display: flex;
+}
+
+.barra-lateral {
+    width: 280px;
+    flex-shrink: 0;
+    background-color: var(--rosa-claro);
+    min-height: 100vh;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contenido {
+    flex: 1;
+    padding: 24px 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-icono {
+    border-radius: 50%;
+    background-color: var(--dorado);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+
+.logo-subtitulo {
+    font-size: 12px;
+    color: var(--texto);
+    display: flex;
+    font-family: "Playfair Display", serif;
+    letter-spacing: 2px;
+}
+
+
+h1,
+h2,
+h3 {
+    font-family: "Playfair Display", serif;
+}
+
+.menu {
+    flex: 1;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: var(--texto);
+    border-radius: 8px;
+}
+
+.menu-titulo {
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 32px 0 12px;
+    font-weight: bold;
+}
+
+.activo a {
+    background-color: var(--dorado);
+}
+
+.menu a:hover {
+    background-color: var(--dorado);
+}
+
+.perfil a {
+    display: block;
+    padding: 12px 16px;
+    text-decoration: none;
+    color: var(--texto);
+    font-weight: bold;
+}
+
+.perfil-usuario {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 16px;
+    font-family: "Playfair Display", serif;
+}
+
+.perfil-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: var(--dorado);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+
+}
+
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+    gap: 16px;
+}
+
+.buscador {
+    width: 400px;
+    padding: 12px 16px;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: var(--crema);
+    font-size: 16px;
+    font-family: inherit;
+
+
+}
+
+.boton-anadir {
+    padding: 12px 20px;
+    background-color: var(--rosa-claro);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: inherit;
+    cursor: pointer;
+
+}
+
+.boton-anadir:hover {
+    background-color: #d4a853;
+}
+
+.banner {
+    margin-bottom: 32px;
+}
+
+.banner-texto {
+    flex: 1;
+    padding: 48px;
+}
+
+
+
+.banner-titulo {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.banner-descripcion {
+    color: var(--texto);
+    margin-bottom: 24px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+
+
+.estadistica {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-bottom: 40px;
+    align-items: center;
+}
+
+.estadisticas {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 24px;
+    background-color: white;
+    border: 1px solid var(--rosa-claro);
+    border-radius: 12px;
+}
+
+.estadistica-numero {
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    color: var(--rosa-claro);
+}
+
+.estadistica-datos {
+    display: flex;
+    flex-direction: column;
+}
+
+.estadistica-titulo {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.estadistica-detalle {
+    font-size: 12px;
+    color: var(--texto-suave);
+    white-space: nowrap;
+}
+
+.seccion-cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 24px;
+}
+
+
+
+.seccion-enlace {
+    color: var(--rosa-claro);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.lista-libros {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 24px;
+}
+
+.tarjeta-libro {
+    background-color: white;
+    border: 1px solid var(--rosa-claro);
+    border-radius: 12px;
+    padding: 16px;
+    transition: transform 0.2s;
+}
+
+.tarjeta-libro:hover {
+    transform: translateY(-4px);
+}
+
+.portada {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 8px;
+    height: 180px;
+    padding: 16px;
+    background-color: var(--rosa-claro);
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.portada-adorno {
+    color: var(--dorado);
+}
+
+.portada-titulo {
+    font-family: "Playfair Display", serif;
+    text-transform: uppercase;
+}
+
+.portada-autor {
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.tarjeta-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+}
+
+.estado {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.estado-leyendo {
+    background-color: var(--dorado);
+}
+
+.estado-pendiente {
+    background-color: #e0e0e0;
+}
+
+.estado-leido {
+    background-color: #95d398;
+}
+
+.tarjeta-titulo {
+    font-size: 18px;
+}
+
+.tarjeta-detalle {
+    font-size: 14px;
+    color: var(--texto-suave);
+}
+
+.progreso {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+}
+
+.progreso-barra {
+    flex: 1;
+    height: 6px;
+    background-color: #e0e0e0;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.progreso-relleno {
+    height: 100%;
+    background-color: var(--dorado);
+}
+
+.progreso-porcentaje {
+    font-size: 11px;
+    color: var(--texto-suave);
+}
+
+.tarjeta-acciones {
+    display: flex;
+    gap: 8px;
+    margin-top: 4px;
+}
+
+.tarjeta-acciones button {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid var(--rosa-claro);
+    background: white;
+    font-family: inherit;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.btn-editar:hover {
+    background: var(--dorado);
+}
+
+.btn-borrar:hover {
+    background: #f8d0d0;
+    border-color: #b00020;
+}
+
+.vacio {
+    color: var(--texto-suave);
+    grid-column: 1 / -1;
+}
+
+.btn-fav {
+    font-size: 16px;
+    line-height: 1;
+    color: var(--dorado);
+}
+
+.btn-fav.activo {
+    background: var(--crema);
+    border-color: var(--dorado);
+}
+
+.menu .activo a {
+    background-color: var(--dorado);
+}
+
+.seccion-acciones {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.orden {
+    padding: 6px 10px;
+    border: 1px solid var(--rosa-claro);
+    border-radius: 8px;
+    background: var(--crema);
+    font-family: inherit;
+    font-size: 14px;
+}
+
+
+@media (max-width: 800px) {
+    body {
+        flex-direction: column;
+    }
+
+
+    .barra-lateral {
+        width: 100%;
+        min-height: auto;
+    }
+
+    .estadisticas {
+        grid-template-columns: 1fr;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .buscador {
+        width: 100%;
+    }
+}
+
+.dialogo {
+    margin: auto;
+    border: 1px solid var(--rosa-claro);
+    border-radius: 12px;
+    background: var(--blanco-florarl);
+    width: 360px;
+}
+
+.dialogo::backdrop {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.dialogo form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.dialogo label {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    font-size: 14px;
+}
+
+.dialogo input,
+.dialogo select {
+    padding: 10px;
+    border: 1px solid var(--rosa-claro);
+    border-radius: 8px;
+    font-family: inherit;
+    background: var(--crema);
+}
+
+.dialogo-botones {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.error-form {
+    color: #b00020;
+    font-size: 13px;
+    min-width: 1em;
+}

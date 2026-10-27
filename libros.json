@@ -1,0 +1,254 @@
+[
+    {
+        "nombredelLibro": "moliëre",
+        "nombredelAutor": "josé escofet",
+        "cantidadePaginas": "210",
+        "laCategoria": "No empezado"
+    },
+    {
+        "nombredelLibro": "la búsqueda de las especias",
+        "nombredelAutor": "carson ritchie",
+        "cantidadePaginas": "61",
+        "laCategoria": "Terminado"
+    },
+    {
+        "nombredelLibro": "el fantasma de canterville",
+        "nombredelAutor": "oscar wilde",
+        "cantidadePaginas": "61",
+        "laCategoria": "Terminado"
+    },
+    {
+        "nombredelLibro": "la marea roja",
+        "nombredelAutor": "cornell woolrich",
+        "cantidadePaginas": "61",
+        "laCategoria": "Terminado"
+    },
+    {
+        "nombredelLibro": "riding the bullet",
+        "nombredelAutor": "stephen king",
+        "cantidadePaginas": "94",
+        "laCategoria": "No empezado"
+    },
+    {
+        "nombredelLibro": "así vivimos los ticos ",
+        "nombredelAutor": "miguel salguero",
+        "cantidadePaginas": "395",
+        "laCategoria": "Empezado"
+    },
+    {
+        "nombredelLibro": "marcos ramirez",
+        "nombredelAutor": "carlos luis fallas ",
+        "cantidadePaginas": "246",
+        "laCategoria": "Empezado"
+    },
+    {
+        "nombredelLibro": "don quijote de la mancha ",
+        "nombredelAutor": "miguel de cervantes ",
+        "cantidadePaginas": "673",
+        "laCategoria": "Empezado"
+    },
+    {
+        "nombredelLibro": "casada con una leyenda ",
+        "nombredelAutor": "henrietta boggs",
+        "cantidadePaginas": "273",
+        "laCategoria": "No empezado"
+    },
+    {
+        "nombredelLibro": "una odisea espacial ",
+        "nombredelAutor": "arthur c. clark",
+        "cantidadePaginas": "1096",
+        "laCategoria": "No empezado"
+    },
+    {
+        "nombredelLibro": "a christmas carol",
+        "nombredelAutor": "charles dickens ",
+        "cantidadePaginas": "147",
+        "laCategoria": "No empezado"
+    },
+    {
+        "nombredelLibro": "sapiens",
+        "nombredelAutor": "yuval noah harari",
+        "cantidadePaginas": "492",
+        "laCategoria": "Terminado"
+    },
+    {
+        "nombredelLibro": "criminalmente",
+        "nombredelAutor": "paz velasco de la fuente",
+        "cantidadePaginas": "373",
+        "laCategoria": "No empezado"
+    },
+    {
+        "nombredelLibro": "la vida es sueño",
+        "nombredelAutor": "pedro calderón de la barca",
+        "cantidadePaginas": "177",
+        "laCategoria": "Terminado"
+    },
+    {
+        "nombredelLibro": "siddharta",
+        "nombredelAutor": "herman hesse",
+        "cantidadePaginas": "211",
+        "laCategoria": "Terminado"
+    },
+    {
+        "nombredelLibro": "the brothers grimm 101 fairy tales ",
+        "nombredelAutor": "canterbury classics",
+        "cantidadePaginas": "405",
+        "laCategoria": "En proceso"
+    },
+    {
+        "nombredelLibro": "cuentos de fantasmas ",
+        "nombredelAutor": "colección",
+        "cantidadePaginas": "188",
+        "laCategoria": "Empezado"
+    },
+    {
+        "nombredelLibro": "odisea ",
+        "nombredelAutor": "homero",
+        "cantidadePaginas": "438",
+        "laCategoria": "Terminado"
+    },
+    {
+        "nombredelLibro": "la divina comedia ",
+        "nombredelAutor": "dante alighieri",
+        "cantidadePaginas": "567",
+        "laCategoria": "No empezado"
+    },
+    {
+        "nombredelLibro": "kamasutra",
+        "nombredelAutor": "mallanga vatsyayana",
+        "cantidadePaginas": "153",
+        "laCategoria": "Empezado"
+    },
+    {
+        "nombredelLibro": "o ultimo cais",
+        "nombredelAutor": "helena marques ",
+        "cantidadePaginas": "189",
+        "laCategoria": "Empezado"
+    },
+    {
+        "nombredelLibro": "les roits maudits 6",
+        "nombredelAutor": "maurice druon",
+        "cantidadePaginas": "371",
+        "laCategoria": "No empezado"
+    },
+    {
+        "nombredelLibro": "la dama boba ",
+        "nombredelAutor": "lope de vega ",
+        "cantidadePaginas": "186",
+        "laCategoria": "No empezado"
+    },
+    {
+        "nombredelLibro": "aprecio y defensa del lenguaje ",
+        "nombredelAutor": "pedro salinas ",
+        "cantidadePaginas": "",
+        "laCategoria": ""
+    },
+    {
+        "nombredelLibro": "el arte de la guerra ",
+        "nombredelAutor": "sun tzu ",
+        "cantidadePaginas": "91",
+        "laCategoria": "Terminado"
+    },
+    {
+        "nombredelLibro": "el rey lear ",
+        "nombredelAutor": "william shakespear ",
+        "cantidadePaginas": "123",
+        "laCategoria": "No empezado"
+    },
+    {
+        "nombredelLibro": "el alcalde de zalamea ",
+        "nombredelAutor": "calderón de la barca",
+        "cantidadePaginas": "121",
+        "laCategoria": "No empezado"
+    },
+    {
+        "nombredelLibro": "las canciones de bilits ",
+        "nombredelAutor": "pierre louÿs ",
+        "cantidadePaginas": "122",
+        "laCategoria": "No empezado"
+    },
+    {
+        "nombredelLibro": "un mundo feliz ",
+        "nombredelAutor": "aldous huxley ",
+        "cantidadePaginas": "248",
+        "laCategoria": "No empezado"
+    },
+    {
+        "nombredelLibro": "juan salvador gaviota ",
+        "nombredelAutor": "richard bach",
+        "cantidadePaginas": "239",
+        "laCategoria": "No empezado"
+    },
+    {
+        "nombredelLibro": "amours et secrets de marie stuart",
+        "nombredelAutor": "philippe erlanger",
+        "cantidadePaginas": "221",
+        "laCategoria": "No empezado"
+    },
+    {
+        "nombredelLibro": "la loca prado",
+        "nombredelAutor": "v.a mora rodriguez ",
+        "cantidadePaginas": "112",
+        "laCategoria": "Empezado"
+    },
+    {
+        "nombredelLibro": "death note vol i",
+        "nombredelAutor": "tsugumi ohba y takeshi obata ",
+        "cantidadePaginas": "un pichazo ",
+        "laCategoria": "No empezado"
+    },
+    {
+        "nombredelLibro": "death note vol ii",
+        "nombredelAutor": "tsugumi ohba y takeshi obata ",
+        "cantidadePaginas": "un pichazo ",
+        "laCategoria": "No empezado"
+    },
+    {
+        "nombredelLibro": "pascal introducción ",
+        "nombredelAutor": "jim welsh ",
+        "cantidadePaginas": "268",
+        "laCategoria": "Empezado"
+    },
+    {
+        "nombredelLibro": "cultivar árboles ",
+        "nombredelAutor": "tony kirkham ",
+        "cantidadePaginas": "139",
+        "laCategoria": "No empezado"
+    },
+    {
+        "nombredelLibro": "el libro del crimen ",
+        "nombredelAutor": "peter james ",
+        "cantidadePaginas": "352",
+        "laCategoria": "Empezado"
+    },
+    {
+        "nombredelLibro": "séneca ",
+        "nombredelAutor": "séneca 156",
+        "cantidadePaginas": "156",
+        "laCategoria": "Empezado"
+    },
+    {
+        "nombredelLibro": "josephine baker ",
+        "nombredelAutor": "teresa muñoz ",
+        "cantidadePaginas": "189",
+        "laCategoria": "Terminado"
+    },
+    {
+        "nombredelLibro": "frankestein",
+        "nombredelAutor": "sergio a. sierra y meritxell ribas ",
+        "cantidadePaginas": "94",
+        "laCategoria": "Terminado"
+    },
+    {
+        "nombredelLibro": "los viajes de gulliver ",
+        "nombredelAutor": "jonathan swift",
+        "cantidadePaginas": "252",
+        "laCategoria": "Empezado"
+    },
+    {
+        "nombredelLibro": "aristóteles y dante descubren los secretos del universo",
+        "nombredelAutor": "benjamin alire sáenz ",
+        "cantidadePaginas": "328",
+        "laCategoria": "Terminado"
+    }
+]
